@@ -4,7 +4,7 @@ import {getLocalStorage} from "../utils/helpers/getLocalStorage";
 
 
 const initialState: InitialState = {
-    cities: getLocalStorage('cities'),
+    cities: getLocalStorage('cities') || [],
 };
 const weatherSlice = createSlice({
     name: "weather",

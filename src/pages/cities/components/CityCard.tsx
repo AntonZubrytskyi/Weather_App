@@ -94,7 +94,7 @@ const CityCard = ({city}: any) => {
                     <CityCardItem itemName='Temperature:' value={temperature}/>
                     <Link
                         aria-label="city"
-                        data-testId='cities-details-link'
+                        data-testid='cities-details-link'
                         to={`/cities/${routePath}`}
                         state={city.name}
                         style={{

@@ -19,7 +19,7 @@ const Navbar = () => {
                             }}
                         >
                             <Link
-                                data-testId='cities-link'
+                                data-testid='cities-link'
                                 to='/'
                                 style={{
                                     textDecoration: 'none',
