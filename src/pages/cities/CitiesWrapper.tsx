@@ -16,7 +16,7 @@ const CitiesWrapper = () => {
                 justifyContent="space-between"
             >
                 <SearchCity/>
-                {cities.length > 0 && <Cities/>}
+                 <Cities/>
             </Box>
         </Container>
     );
